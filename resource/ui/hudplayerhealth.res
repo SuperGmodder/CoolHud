@@ -5,10 +5,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-175"		[$WIN32]
+		"xpos"			"100"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"c-60"	[$WIN32]
+		"ypos"			"50"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
+		"xpos"			"32"	[$X360]
+		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -26,9 +28,9 @@
 		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
+		"wide"			"51"
+		"tall"			"51"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -40,10 +42,10 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"55"
+		"tall"			"55"
 		"visible"		"1"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 	}	
@@ -58,12 +60,12 @@
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"0"	[$WIN32]
-		"wide_minmode"	"0"	[$WIN32]
-		"wide"			"0"	[$X360]
-		"tall"			"0"	[$WIN32]
-		"tall_minmode"	"0"	[$WIN32]
-		"tall"			"0"	[$X360]
+		"wide"			"55"	[$WIN32]
+		"wide_minmode"	"40"	[$WIN32]
+		"wide"			"35"	[$X360]
+		"tall"			"55"	[$WIN32]
+		"tall_minmode"	"40"	[$WIN32]
+		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -73,18 +75,19 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"70"
-		"xpos_minmode"	"75"
-		"ypos"			"18"	[$WIN32]
+		"xpos"			"76"
+		"xpos_minmode"	"61"
+		"ypos"			"52"	[$WIN32]
+		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"75"
+		"wide"			"50"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CoolveticaRegular48"
-		"fgcolor"		"White"
+		"font"			"CoolveticaRegular12"
+		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -92,17 +95,17 @@
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"25"	[$WIN32]
+		"ypos"			"20"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"CoolveticaRegular48"
-		"fgcolor"		"White"
+		"font"			"CoolveticaRegular12"
+		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusBleedImage"
 	{
