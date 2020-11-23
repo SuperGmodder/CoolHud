@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
+		"font"			"CoolveticaRegular12"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"
@@ -104,7 +104,7 @@
 		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
-		"font"			"DefaultSmall"
+		"font"			"CoolveticaRegular12"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusBleedImage"
