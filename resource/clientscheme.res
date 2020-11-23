@@ -3052,6 +3052,16 @@ Scheme
 			}
 		}
 		
+		CoolveticaRegular48
+		{
+			"1"
+			{
+				"name"		"CoolveticaRg-Regular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
 		//Coolvetica Compressed Fonts
 		CoolveticaCompressed12
 		{
